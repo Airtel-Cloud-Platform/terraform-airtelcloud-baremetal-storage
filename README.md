@@ -10,7 +10,7 @@ The module provides a simple interface for provisioning block storage that can b
 
 ```hcl
 module "baremetal_storage" {
-  source = "../../"
+  source = "Airtel-Cloud-Platform/baremetal-storage/airtelcloud"
 
   name              = "basic-storage"
   availability_zone = "S1"
@@ -22,7 +22,7 @@ module "baremetal_storage" {
 
 ```hcl
 module "baremetal_storage" {
-  source = "../../"
+  source = "Airtel-Cloud-Platform/baremetal-storage/airtelcloud"
 
   name              = "application-data"
   availability_zone = "S1"
@@ -117,7 +117,7 @@ If the module is declared as:
 
 ```hcl
 module "baremetal_storage" {
-  source = "../../"
+  source = "Airtel-Cloud-Platform/baremetal-storage/airtelcloud"
 
   name              = "application-data"
   availability_zone = "S1"
@@ -153,7 +153,7 @@ examples/
 
 ```hcl
 module "baremetal_storage" {
-  source = "../../"
+  source = "Airtel-Cloud-Platform/baremetal-storage/airtelcloud"
 
   name              = "basic-storage"
   availability_zone = "S1"
@@ -165,7 +165,7 @@ module "baremetal_storage" {
 
 ```hcl
 module "baremetal_storage" {
-  source = "../../"
+  source = "Airtel-Cloud-Platform/baremetal-storage/airtelcloud"
 
   name              = "application-data"
   availability_zone = "S1"
